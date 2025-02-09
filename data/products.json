@@ -24,26 +24,5 @@
       "imagen2.jpg"
     ],
     "status": true
-  },
-  {
-    "id": "m6wvl7xbe3mpjyhqi9i",
-    "title": "otra cosa",
-    "price": "300",
-    "status": true,
-    "thumbnails": []
-  },
-  {
-    "id": "m6wvlsvcslqrdz0em6c",
-    "title": "mas codsaaa",
-    "price": "34445",
-    "status": true,
-    "thumbnails": []
-  },
-  {
-    "id": "m6xnrhwlwli7nz18cfq",
-    "title": "aa",
-    "price": "23",
-    "status": true,
-    "thumbnails": []
   }
 ]
