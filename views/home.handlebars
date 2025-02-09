@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="/styles.css"> <!-- Si tienes estilos -->
+</head>
+<body>
+  <h1>Lista de Productos</h1>
+  <ul id="productList">
+    {{#each products}}
+      <li>{{this.title}} - ${{this.price}}</li>
+    {{/each}}
+  </ul>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    // Escuchar nuevos productos
+    socket.on('newProduct', (product) => {
+      const productList = document.getElementById('productList');
+      const li = document.createElement('li');
+      li.textContent = `${product.title} - $${product.price}`;
+      productList.appendChild(li);
+    });
+
+    // Escuchar productos eliminados
+    socket.on('deleteProduct', (productId) => {
+      const productList = document.getElementById('productList');
+      const items = productList.getElementsByTagName('li');
+      for (let item of items) {
+        if (item.textContent.includes(productId)) {
+          productList.removeChild(item);
+          break;
+        }
+      }
+    });
+  </script>
+</body>
+</html>

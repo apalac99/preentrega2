@@ -1,0 +1,49 @@
+[
+  {
+    "id": "1",
+    "title": "Producto 1",
+    "description": "Producto cualquiera 1",
+    "code": "codigo 1",
+    "price": 100,
+    "stock": 10,
+    "category": "Categoría 1",
+    "thumbnails": [
+      "imagen1.jpg"
+    ],
+    "status": true
+  },
+  {
+    "id": "2",
+    "title": "Producto 2",
+    "description": "Producto culaquiera 2",
+    "code": "codigo 2",
+    "price": 200,
+    "stock": 20,
+    "category": "Categoría 2",
+    "thumbnails": [
+      "imagen2.jpg"
+    ],
+    "status": true
+  },
+  {
+    "id": "m6wvl7xbe3mpjyhqi9i",
+    "title": "otra cosa",
+    "price": "300",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": "m6wvlsvcslqrdz0em6c",
+    "title": "mas codsaaa",
+    "price": "34445",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": "m6xnrhwlwli7nz18cfq",
+    "title": "aa",
+    "price": "23",
+    "status": true,
+    "thumbnails": []
+  }
+]
