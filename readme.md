@@ -57,6 +57,6 @@ Al trabajar con websockets, cada vez que creemos un producto nuevo, o bien cada 
 Uso ////////////////////////////////////////////////////////////
 
 
-Abre http://localhost:8080/ en tu navegador. Lista en tiempo real (Incluye actualizacion automatica cuando se agrega uno nuevo)
+Abre http://localhost:8080/ Lista en tiempo real (Incluye actualizacion automatica cuando se agrega uno nuevo)
 
 Abre http://localhost:8080/realtimeproducts agregar productos
