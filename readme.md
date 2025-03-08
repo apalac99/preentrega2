@@ -14,10 +14,10 @@ Sumar a la primera preentrega:
 Desarrollar el servidor basado en Node.JS y express, que escuche en el puerto 8080 y disponga de dos grupos de rutas: /products y /carts. Dichos endpoints estarán implementados con el router de express, con las siguientes especificaciones:
 
 Para el manejo de productos, el cual tendrá su router en /api/products/ , configurar las siguientes rutas:
-La ruta raíz GET / deberá listar todos los productos de la base. (Incluyendo la limitación ?limit 
+La ruta raíz GET / deberá listar todos los productos de la base. 
 La ruta GET /:pid deberá traer sólo el producto con el id proporcionado
 La ruta raíz POST / deberá agregar un nuevo producto con los campos:
-id: Number/String (A tu elección, el id NO se manda desde body, se autogenera como lo hemos visto desde los primeros entregables, asegurando que NUNCA se repetirán los ids en el archivo.
+id: Number/String 
 title:String,
 description:String
 code:String
